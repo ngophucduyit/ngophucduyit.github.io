@@ -13187,7 +13187,7 @@ Phép Toán nhân 2 Ma trận:
 [[42 48]
  [48 54]]
 Random mảng 1 chiều: 
-[3 1 2 4 8 6 3 7 7 7]
+[3 9 7 1 8 9 7 2 5 8]
 </pre>
 </div>
 </div>
@@ -13775,20 +13775,6 @@ e đọcbang python thu lô, dù cái nay thi phai dung duong dan moii dc.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13851,7 +13837,7 @@ e đọcbang python thu lô, dù cái nay thi phai dung duong dan moii dc.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
@@ -13878,281 +13864,16 @@ e đọcbang python thu lô, dù cái nay thi phai dung duong dan moii dc.</p>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>Using TensorFlow backend.
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>WARNING:tensorflow:From C:\Users\phucduy\anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
-
-Epoch 1/100
-100/100 [==============================] - 0s 1ms/step - loss: 2.3953
-Epoch 2/100
-100/100 [==============================] - 0s 490us/step - loss: 0.0393
-Epoch 3/100
-100/100 [==============================] - 0s 550us/step - loss: 0.0314
-Epoch 4/100
-100/100 [==============================] - 0s 420us/step - loss: 0.0293
-Epoch 5/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0298
-Epoch 6/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0313
-Epoch 7/100
-100/100 [==============================] - 0s 310us/step - loss: 0.0293
-Epoch 8/100
-100/100 [==============================] - 0s 480us/step - loss: 0.0306
-Epoch 9/100
-100/100 [==============================] - 0s 550us/step - loss: 0.0293
-Epoch 10/100
-100/100 [==============================] - 0s 670us/step - loss: 0.0319
-Epoch 11/100
-100/100 [==============================] - 0s 640us/step - loss: 0.0291
-Epoch 12/100
-100/100 [==============================] - 0s 500us/step - loss: 0.0306
-Epoch 13/100
-100/100 [==============================] - 0s 470us/step - loss: 0.0284
-Epoch 14/100
-100/100 [==============================] - 0s 440us/step - loss: 0.0295
-Epoch 15/100
-100/100 [==============================] - 0s 310us/step - loss: 0.0299
-Epoch 16/100
-100/100 [==============================] - 0s 410us/step - loss: 0.0316
-Epoch 17/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0294
-Epoch 18/100
-100/100 [==============================] - 0s 410us/step - loss: 0.0311
-Epoch 19/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0312
-Epoch 20/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0310
-Epoch 21/100
-100/100 [==============================] - 0s 400us/step - loss: 0.0317
-Epoch 22/100
-100/100 [==============================] - 0s 570us/step - loss: 0.0306
-Epoch 23/100
-100/100 [==============================] - 0s 510us/step - loss: 0.0308
-Epoch 24/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0290
-Epoch 25/100
-100/100 [==============================] - 0s 360us/step - loss: 0.0299
-Epoch 26/100
-100/100 [==============================] - 0s 420us/step - loss: 0.0315
-Epoch 27/100
-100/100 [==============================] - 0s 470us/step - loss: 0.0318
-Epoch 28/100
-100/100 [==============================] - 0s 690us/step - loss: 0.0299
-Epoch 29/100
-100/100 [==============================] - 0s 600us/step - loss: 0.0315
-Epoch 30/100
-100/100 [==============================] - 0s 590us/step - loss: 0.0303
-Epoch 31/100
-100/100 [==============================] - 0s 500us/step - loss: 0.0318
-Epoch 32/100
-100/100 [==============================] - 0s 690us/step - loss: 0.0303
-Epoch 33/100
-100/100 [==============================] - 0s 560us/step - loss: 0.0312
-Epoch 34/100
-100/100 [==============================] - 0s 540us/step - loss: 0.0328
-Epoch 35/100
-100/100 [==============================] - 0s 430us/step - loss: 0.0309
-Epoch 36/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0299
-Epoch 37/100
-100/100 [==============================] - 0s 290us/step - loss: 0.0295
-Epoch 38/100
-100/100 [==============================] - 0s 380us/step - loss: 0.0320
-Epoch 39/100
-100/100 [==============================] - 0s 410us/step - loss: 0.0295
-Epoch 40/100
-100/100 [==============================] - 0s 330us/step - loss: 0.0312
-Epoch 41/100
-100/100 [==============================] - 0s 330us/step - loss: 0.0292
-Epoch 42/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0310
-Epoch 43/100
-100/100 [==============================] - 0s 500us/step - loss: 0.0306
-Epoch 44/100
-100/100 [==============================] - 0s 530us/step - loss: 0.0299
-Epoch 45/100
-100/100 [==============================] - 0s 610us/step - loss: 0.0299
-Epoch 46/100
-100/100 [==============================] - 0s 500us/step - loss: 0.0315
-Epoch 47/100
-100/100 [==============================] - 0s 450us/step - loss: 0.0298
-Epoch 48/100
-100/100 [==============================] - 0s 340us/step - loss: 0.0308
-Epoch 49/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0318
-Epoch 50/100
-100/100 [==============================] - 0s 530us/step - loss: 0.0286
-Epoch 51/100
-100/100 [==============================] - 0s 570us/step - loss: 0.0285
-Epoch 52/100
-100/100 [==============================] - 0s 540us/step - loss: 0.0298
-Epoch 53/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0313
-Epoch 54/100
-100/100 [==============================] - 0s 315us/step - loss: 0.0316
-Epoch 55/100
-100/100 [==============================] - 0s 339us/step - loss: 0.0317
-Epoch 56/100
-100/100 [==============================] - 0s 356us/step - loss: 0.0311
-Epoch 57/100
-100/100 [==============================] - 0s 330us/step - loss: 0.0302
-Epoch 58/100
-100/100 [==============================] - 0s 300us/step - loss: 0.0285
-Epoch 59/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0314
-Epoch 60/100
-100/100 [==============================] - 0s 490us/step - loss: 0.0309
-Epoch 61/100
-100/100 [==============================] - 0s 560us/step - loss: 0.0314
-Epoch 62/100
-100/100 [==============================] - 0s 610us/step - loss: 0.0287
-Epoch 63/100
-100/100 [==============================] - 0s 440us/step - loss: 0.0314
-Epoch 64/100
-100/100 [==============================] - 0s 290us/step - loss: 0.0310
-Epoch 65/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0311
-Epoch 66/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0305
-Epoch 67/100
-100/100 [==============================] - 0s 360us/step - loss: 0.0303
-Epoch 68/100
-100/100 [==============================] - 0s 310us/step - loss: 0.0304
-Epoch 69/100
-100/100 [==============================] - 0s 440us/step - loss: 0.0304
-Epoch 70/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0298
-Epoch 71/100
-100/100 [==============================] - 0s 330us/step - loss: 0.0293
-Epoch 72/100
-100/100 [==============================] - 0s 320us/step - loss: 0.0290
-Epoch 73/100
-100/100 [==============================] - 0s 460us/step - loss: 0.0289
-Epoch 74/100
-100/100 [==============================] - 0s 540us/step - loss: 0.0296
-Epoch 75/100
-100/100 [==============================] - 0s 610us/step - loss: 0.0292
-Epoch 76/100
-100/100 [==============================] - 0s 700us/step - loss: 0.0301
-Epoch 77/100
-100/100 [==============================] - 0s 630us/step - loss: 0.0305
-Epoch 78/100
-100/100 [==============================] - 0s 390us/step - loss: 0.0298
-Epoch 79/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0303
-Epoch 80/100
-100/100 [==============================] - 0s 290us/step - loss: 0.0299
-Epoch 81/100
-100/100 [==============================] - 0s 370us/step - loss: 0.0309
-Epoch 82/100
-100/100 [==============================] - 0s 460us/step - loss: 0.0303
-Epoch 83/100
-100/100 [==============================] - 0s 500us/step - loss: 0.0315
-Epoch 84/100
-100/100 [==============================] - 0s 510us/step - loss: 0.0291
-Epoch 85/100
-100/100 [==============================] - 0s 400us/step - loss: 0.0307
-Epoch 86/100
-100/100 [==============================] - 0s 350us/step - loss: 0.0327
-Epoch 87/100
-100/100 [==============================] - 0s 410us/step - loss: 0.0301
-Epoch 88/100
-100/100 [==============================] - 0s 400us/step - loss: 0.0303
-Epoch 89/100
-100/100 [==============================] - 0s 410us/step - loss: 0.0313
-Epoch 90/100
-100/100 [==============================] - 0s 420us/step - loss: 0.0305
-Epoch 91/100
-100/100 [==============================] - 0s 320us/step - loss: 0.0293
-Epoch 92/100
-100/100 [==============================] - 0s 420us/step - loss: 0.0301
-Epoch 93/100
-100/100 [==============================] - 0s 389us/step - loss: 0.0305
-Epoch 94/100
-100/100 [==============================] - 0s 420us/step - loss: 0.0298
-Epoch 95/100
-100/100 [==============================] - 0s 620us/step - loss: 0.0298
-Epoch 96/100
-100/100 [==============================] - 0s 650us/step - loss: 0.0303
-Epoch 97/100
-100/100 [==============================] - 0s 510us/step - loss: 0.0290
-Epoch 98/100
-100/100 [==============================] - 0s 400us/step - loss: 0.0310
-Epoch 99/100
-100/100 [==============================] - 0s 290us/step - loss: 0.0307
-Epoch 100/100
-100/100 [==============================] - 0s 400us/step - loss: 0.0310
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[8]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;keras.callbacks.callbacks.History at 0x1df07da6ec8&gt;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">get_weights</span><span class="p">()</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[9]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[array([[1.9732835],
-        [2.9972694]], dtype=float32),
- array([4.0371842], dtype=float32)]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14169,7 +13890,7 @@ OpenCV có hơn 2500 thuật toán cung cấp cả phương pháp cổ điển v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># xử lý ảnh thành trắng đen bằng cv2</span>
@@ -14218,7 +13939,7 @@ OpenCV có hơn 2500 thuật toán cung cấp cả phương pháp cổ điển v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Sử dụng SciPy để xử lý hình ảnh</span>
@@ -14277,7 +13998,7 @@ Bên cạnh tính dễ sử dụng và khả năng tiếp cận thì với khả
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nltk</span>
