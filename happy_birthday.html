@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="vi">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Happy Birthday</title>
+  <style>
+	  
+body {
+	background-image: url(https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116015313_2618736281773180_4907320255936902426_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=NT5BiZrzJ6EAX-1G8_H&_nc_ht=scontent.fsgn4-1.fna&oh=b9e5a76b476e2cb66c2bf01d165b4033&oe=5F4E7F02);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transition: 3s;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100vh;
+	min-height: 720px;
+	max-height: 1024px;
+}
+	
+audio {
+	max-width: 300px;
+	max-height: 30px;
+	vertical-align: middle;
+}
+
+#container {
+	width: 100%;
+	height: inherit;
+	max-height: 100%;
+	-webkit-perspective: 1000;
+	-webkit-perspective-origin: 50% 680px;
+}
+#stage {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform 2s;
+	-webkit-transform-style: preserve-3d;
+}
+
+#shape {
+	position: relative;
+	top: 260px;
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	-webkit-transform-style: preserve-3d;
+}
+
+.plane {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border: 1px solid white;
+	-webkit-border-radius: 12px;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+	font-family: Times, serif;
+	font-size: 124pt;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.6);
+	-webkit-transition: -webkit-transform 2s, opacity 2s;
+	-webkit-backface-visibility: hidden;
+}
+
+#shape.backfaces .plane {
+	-webkit-backface-visibility: visible;
+}
+
+#shape {
+	-webkit-animation: spin 8s infinite linear;
+}
+
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotateY(0); }
+	to   { -webkit-transform: rotateY(360deg); }
+}
+
+.one {
+	background-image: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/104433805_752595508814056_2850996097226694004_o.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=SKXPorscpHcAX_jNz8U&_nc_ht=scontent.fsgn8-1.fna&oh=1ef79179be7b53df8cd5263745b516d5&oe=5F4C994D);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.two {
+	background-image: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/100932836_735449927195281_5165898341921325056_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_ohc=6y08pOvKwyMAX9ZiJVA&_nc_ht=scontent.fsgn8-1.fna&oh=3b84c20950b8bc5cb2f9f47dcdc8af8c&oe=5F4E8567);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.three {
+	background-image: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/95832110_717506835656257_7481569761021657088_n.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=yHvrAYUNH_QAX9UmQ-3&_nc_ht=scontent.fsgn8-1.fna&oh=70cffe62f0d895fa1d8f5a980bdae0a6&oe=5F4C1145);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.four {
+	background-image: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/115521650_769720283768245_1425797386471738762_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=fjdey3vRcEAAX92oRRh&_nc_ht=scontent.fsgn8-1.fna&oh=858bb0083e85bed04ae02cd731ed0e05&oe=5F4E7275);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.five {
+	background-image: url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/93572457_707288376678103_8602518949256495104_o.jpg?_nc_cat=104&_nc_sid=174925&_nc_ohc=AGyQC6BqheUAX_BhLom&_nc_ht=scontent.fsgn3-1.fna&oh=8c21eeea37f7bece5e13fc500c1455e1&oe=5F4DBD45);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.six {
+	background-image: url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/p1080x2048/116422634_1527582080761600_5056501807288326264_n.jpg?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=_mZNGjfGD9IAX-bB6cZ&_nc_ht=scontent.fsgn3-1.fna&_nc_tp=6&oh=3fca6c998c7ac0e125841b9f90c978f8&oe=5F4D59F0);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.seven {
+	background-image: url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116886906_293473338384072_2285996192523365405_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=K0YvDvFLANEAX9ysZNF&_nc_ht=scontent.fsgn3-1.fna&oh=870ba055ba28c34dccebf368b87f1ee8&oe=5F4E9818);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.eight {
+	background-image: url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116262270_792597814878071_4355974190044272417_n.jpg?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=jfMKMA7LXZoAX_8TW9X&_nc_ht=scontent.fsgn3-1.fna&oh=42b7d0b2f922cb60af4cc82daaad52c4&oe=5F4F4DF7);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.nine {
+	background-image: url(https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116226593_288762312349044_8924417442771069420_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=RVQ9eucsT6cAX9Wqg6u&_nc_ht=scontent.fsgn4-1.fna&oh=74db00a826ee4ff309556c22a08de0d9&oe=5F4CF880);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.ten {
+	background-image: url(https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116708439_628510368046925_460012216278966092_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=HeaqvQDgWtsAX-VG3E5&_nc_ht=scontent.fsgn4-1.fna&oh=23db3a72c4bc7118019cea19a3725c68&oe=5F4BE81B);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.eleven {
+	background-image: url(https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/p1080x2048/116396761_219461152683591_1061218299957777648_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=5xC7Tf1s_swAX8KULn_&_nc_ht=scontent.fsgn4-1.fna&_nc_tp=6&oh=f83590ca6a21136c815dd6dab300a807&oe=5F4D9A6E);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.twelve {
+	background-image: url(https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116954183_1559937804208079_8305910099170079749_n.jpg?_nc_cat=105&_nc_sid=b96e70&_nc_ohc=MmZJO2e8rP8AX93zSlY&_nc_ht=scontent.fsgn4-1.fna&oh=d4f02c498061b74ff2b3dd076802bed9&oe=5F4F4178);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.cube > .one {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
+}
+
+.cube > .two {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
+}
+
+.cube > .three {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
+}
+
+.cube > .four {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
+}
+
+.cube > .five {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
+}
+
+.cube > .six {
+	opacity: 0.2;
+	-webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+}
+
+#shape:hover.cube > .one, .autoLoad > .one {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) rotateX(90deg) translateZ(130px);
+}
+
+#shape:hover.cube > .two, .autoLoad > .two {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) translateZ(150px);
+}
+
+#shape:hover.cube > .three, .autoLoad > .three {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) rotateY(90deg) translateZ(150px);
+}
+
+#shape:hover.cube > .four, .autoLoad > .four {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) rotateY(180deg) translateZ(150px);
+}
+
+#shape:hover.cube > .five, .autoLoad > .five {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) rotateY(-90deg) translateZ(150px);
+}
+
+#shape:hover.cube > .six, .autoLoad > .six {
+	opacity: 0.9;
+	-webkit-transform: scale3d(1.5, 1.5, 1.5) rotateX(-90deg) translateZ(130px) rotate(180deg);
+}
+
+.cube > .seven, .autoLoad > .seven {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+}
+
+.cube > .eight, .autoLoad > .eight {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
+}
+
+.cube > .nine, .autoLoad > .nine {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
+}
+
+.cube > .ten, .autoLoad > .ten {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
+}
+
+.cube > .eleven, .autoLoad > .eleven {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
+}
+
+.cube > .twelve, .autoLoad > .twelve {
+	-webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
+}
+
+.ring > .one {
+	-webkit-transform: translateZ(380px);
+}
+
+.ring > .two {
+	-webkit-transform: rotateY(30deg) translateZ(380px);
+}
+
+.ring > .three {
+	-webkit-transform: rotateY(60deg) translateZ(380px);
+}
+
+.ring > .four {
+	-webkit-transform: rotateY(90deg) translateZ(380px);
+}
+
+.ring > .five {
+	-webkit-transform: rotateY(120deg) translateZ(380px);
+}
+
+.ring > .six {
+	-webkit-transform: rotateY(150deg) translateZ(380px);
+}
+
+.ring > .seven {
+	-webkit-transform: rotateY(180deg) translateZ(380px);
+}
+
+.ring > .eight {
+	-webkit-transform: rotateY(210deg) translateZ(380px);
+}
+
+.ring > .nine {
+	-webkit-transform: rotateY(-120deg) translateZ(380px);
+}
+
+.ring > .ten {
+	-webkit-transform: rotateY(-90deg) translateZ(380px);
+}
+
+.ring > .eleven {
+	-webkit-transform: rotateY(300deg) translateZ(380px);
+}
+
+.ring > .twelve {
+	-webkit-transform: rotateY(330deg) translateZ(380px);
+}
+
+.panel {
+	margin: 5px 10px;
+	padding: 10px 5px;
+}
+
+.audio {
+	/* float: left; */
+	height: 30px;
+	width: 300px;
+	left: 15px;
+	top: 15px;
+	position: absolute;
+	z-index: 1;
+}
+
+.author {
+	/* float: right; */
+	height: 30px;
+	right: 15px;
+	top: 15px;
+	position: absolute;
+	z-index: 2;
+}
+
+.author button {
+	background-color: #f5f5f5;
+	height: 28px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+	-webkit-border-radius: 15px;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #fff;
+}
+
+.author button:hover {
+	background-color: #0088ff;
+	color: #fff;
+	border-color: #005599;
+	cursor: pointer;
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+  </style>
+  <script type="text/javascript" charset="utf-8">
+	function hasClassName(inElement, inClassName)
+	{
+		var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)');
+		return regExp.test(inElement.className);
+	}
+
+	function addClassName(inElement, inClassName)
+	{
+		if (!hasClassName(inElement, inClassName))
+			inElement.className = [inElement.className, inClassName].join(' ');
+	}
+
+	function removeClassName(inElement, inClassName)
+	{
+		if (hasClassName(inElement, inClassName)) {
+			var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)', 'g');
+			var curClasses = inElement.className;
+			inElement.className = curClasses.replace(regExp, ' ');
+		}
+	}
+
+	function toggleClassName(inElement, inClassName)
+	{
+		if (hasClassName(inElement, inClassName))
+			removeClassName(inElement, inClassName);
+		else
+			addClassName(inElement, inClassName);
+	}
+
+	function toggleShape()
+	{
+		var shape = document.getElementById('shape');
+		if (hasClassName(shape, 'cube') || hasClassName(shape, 'autoLoad')) {
+			if (hasClassName(shape, 'cube')) {
+				removeClassName(shape, 'cube');
+			}
+			if (hasClassName(shape, 'autoLoad')) {
+				removeClassName(shape, 'autoLoad');
+			}
+			addClassName(shape, 'ring');
+		} else {
+			removeClassName(shape, 'ring');
+			addClassName(shape, 'cube');
+		}
+
+		var stage = document.getElementById('stage'); 
+		if (hasClassName(shape, 'ring'))
+			stage.style.webkitTransform = 'translateZ(-200px)';
+		else
+			stage.style.webkitTransform = '';
+	}
+	
+	var count = 0;
+	var num_bg = 1;
+	var next_bg = 0;
+	var preLoadbg;
+	
+	function timedCount()
+	{
+		var arr = [
+			'https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116015313_2618736281773180_4907320255936902426_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=NT5BiZrzJ6EAX-1G8_H&_nc_ht=scontent.fsgn4-1.fna&oh=b9e5a76b476e2cb66c2bf01d165b4033&oe=5F4E7F02',
+			'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116132667_293431378596676_5633929706211817579_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=S-L8LkjlhQYAX9tdi8b&_nc_ht=scontent.fsgn3-1.fna&oh=9ec6aee738d3cb26863e5b1d8e44d008&oe=5F28C62C',
+			'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116336687_917525445319734_2864916174961617077_n.jpg?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=xtqYO0ttI6UAX9jKfHr&_nc_ht=scontent.fsgn3-1.fna&oh=bd1a3c9dc143bee1b508f8f45cd662a4&oe=5F4C6BDD',
+			'https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/110657871_358871108432445_5327792824376802320_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=qy9fBAQsoqoAX9SkwVI&_nc_ht=scontent.fsgn4-1.fna&oh=686a1aee5d815b0fc705598325cb81c4&oe=5F4D0016',
+			'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116303965_963791887378967_4010087477250810867_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=L34aQk3vJYgAX-R2ShJ&_nc_ht=scontent.fsgn3-1.fna&oh=c6e38be066346cd45fc4ab7a7680218b&oe=5F4EDC49',
+			'https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.15752-9/116693663_303350660899508_3036666145116359579_n.jpg?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=pgTUZRX0V1YAX_XYwZ3&_nc_ht=scontent.fsgn4-1.fna&oh=f7212dde8ffd42be6fb120722b473e68&oe=5F4CE733',
+			'https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.15752-9/116065036_309201390281364_8425535553592788604_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=oQ_luFPYymAAX_3fPsL&_nc_ht=scontent.fsgn3-1.fna&oh=472aeb1d309d2bc6529c5352826c506f&oe=5F4BBA4C',
+		]
+		if(count >= 8) {
+			count = 0;
+			autoLoad();
+		} else {
+			count = count + 1;
+		}
+		if(next_bg >= 15) {
+			num_bg = num_bg + 1;
+			if(num_bg > 10) {
+				num_bg = 1;
+			}
+			document.body.style.backgroundImage = "url(" + arr[Math.floor(Math.random() * arr.length)] + ")";
+			preLoadbg = new Image();
+			if(num_bg == 10) {
+				preLoadbg.src = "url(" + arr[0] + ")";
+			} else {
+				preLoadbg.src = "url(" + arr[Math.floor(Math.random() * arr.length)] + ")";
+			}
+			next_bg = 0;
+		} else {
+			next_bg = next_bg + 1;
+		}
+		setTimeout(timedCount, 1000);
+	}
+	
+	function autoLoad()
+	{
+		var shapeTest = document.getElementById('shape');
+		if (hasClassName(shapeTest, 'cube')) {
+			removeClassName(shapeTest, 'cube');
+			addClassName(shapeTest, 'autoLoad');
+		} else {
+			toggleShape();
+		}
+	}
+	</script>
+	<script type="text/javascript" src="https://redirect.nhq.vn/demo/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://redirect.nhq.vn/demo/js/snow.js"></script>
+</head>
+<body onload="timedCount()">
+	<div id="container">
+		<div id="stage">
+			<div id="shape" class="cube backfaces">
+				<div class="plane one"></div>
+				<div class="plane two"></div>
+				<div class="plane three"></div>
+				<div class="plane four"></div>
+				<div class="plane five"></div>
+				<div class="plane six"></div>
+				<div class="plane seven"></div>
+				<div class="plane eight"></div>
+				<div class="plane nine"></div>
+				<div class="plane ten"></div>
+				<div class="plane eleven"></div>
+				<div class="plane twelve"></div>
+			</div>
+		</div>
+	</div>
+	<div class="audio">
+		<audio id="player" controls autoplay>
+			<source src="https://redirect.nhq.vn/demo/audio/That_Girl.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+	<script type="text/javascript">
+		var audios = [
+			"https://redirect.nhq.vn/demo/audio/That_Girl.mp3",
+			"https://redirect.nhq.vn/demo/audio/Im_Yours.mp3",
+			"https://redirect.nhq.vn/demo/audio/My_Girl.mp3",
+			"https://redirect.nhq.vn/demo/audio/Girls_Like_You.mp3",
+			"https://redirect.nhq.vn/demo/audio/There_For_You.mp3",
+			"https://redirect.nhq.vn/demo/audio/What_Makes_You_Beautiful.mp3",
+			"https://redirect.nhq.vn/demo/audio/I_Do.mp3",
+			"https://redirect.nhq.vn/demo/audio/A_Little_Love.mp3",
+			"https://redirect.nhq.vn/demo/audio/Beautiful_In_White.mp3",
+			"https://redirect.nhq.vn/demo/audio/Proud_Of_You.mp3"
+		];
+		var music = document.getElementById("player");
+		var getSrc = document.getElementsByTagName("source");
+		getSrc[0].src = audios[Math.floor(Math.random() * 10)];
+		music.load();
+		var index = audios.indexOf(getSrc[0].src);
+		music.addEventListener('ended', function() {
+			if(index == -1 || index >= 9) {
+				index = 0;
+			} else {
+				index = index + 1;
+			}
+			getSrc[0].src = audios[index];
+			music.load();
+			music.play();       
+		});
+		var firstPreload = new Image();
+		firstPreload.src = "css/bg/2.jpg";
+	</script>
+</body>
+</html>
