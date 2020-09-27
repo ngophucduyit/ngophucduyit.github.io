@@ -1,0 +1,84 @@
+hr{
+	border-top: solid 1px;
+	opacity: 0.3;
+}
+a{
+	color: black;
+}
+a.anime:hover{
+    color: #ff66b3;
+    text-decoration: none;
+}
+a.news:hover{
+    color: #00ccff;
+    text-decoration: none;
+}
+a.user:hover{
+    color: #00ff00;
+    text-decoration: none;
+}
+a.update:hover{
+    color: yellow;
+    cursor:pointer;
+    text-decoration: none;
+}
+a.showanime{
+	cursor:pointer;
+}
+a.showanime:hover{
+	color: #00ccff;
+	text-decoration: none;
+}
+a.shownews{
+	cursor:pointer;
+}
+a.shownews:hover{
+	color: #00ccff;
+	text-decoration: none;
+}
+a.hiden{
+	color: #0c5397;
+	cursor:pointer;
+}
+a.hiden:hover{
+	color: #0c5397;
+	text-decoration: none;
+}
+a.edit{
+	color: #0c5397;
+	cursor:pointer;
+}
+a.edit:hover{
+	color: #0c5397;
+	text-decoration: none;
+}
+a.del{
+	color: #0c5397;
+	cursor:pointer;
+}
+a.del:hover{
+	color: #0c5397;
+	text-decoration: none;
+}
+a.mlem{
+	color: black;
+	cursor:pointer;
+}
+a.mlem:hover{
+	color: #00ccff;
+	text-decoration: none;
+}
+a.page-link{
+	color: #00ccff;
+	cursor:pointer;
+}
+a.page-link:hover{
+	color: #00ccff;
+	text-decoration: none;
+}
+.select-page{
+	background-color: #00ccff;
+}
+.select-page:hover{
+	background-color: #00ccff;
+}
