@@ -1,1 +1,0 @@
-Xin chào {{$name}}. Đây là mật khẩu mới của bạn: {{$pass}} . Vui lòng đăng nhập và đổi mật khẩu để bảo mật thông tin.
